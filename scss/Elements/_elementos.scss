@@ -1,0 +1,30 @@
+//Elementos
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1rem 0;
+  color: $negro;
+}
+
+p {
+  margin: 0.5rem 0;
+  color: $negro;
+}
+
+a {
+  text-decoration: none;
+  color: $enlace;
+  @include transition();
+  &:hover {
+    color: #1f5dee;
+  }
+}
+
+::before,
+::after {
+  box-sizing: inherit;
+}

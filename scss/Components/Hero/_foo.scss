@@ -1,0 +1,18 @@
+.foo-wrapper {
+    @include flex-align(column, center, center);
+    
+  .foo {
+    font-family: $fuente-titulos;
+    font-size: 2rem;
+    &::after {
+        @include pseudo;
+        width: 50%;
+        height: 1px;
+        background: $negro;
+        top: 0;
+    }
+    &:hover {
+        @include transition();
+    }
+  }
+}

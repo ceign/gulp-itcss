@@ -1,0 +1,32 @@
+//Mixins
+
+@mixin flex-align($fdir, $align, $justify) {
+  display: flex;
+  flex-direction: $fdir;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin pseudo($content: "", $display: block, $pos: absolute) {
+  content: $content;
+  display: $display;
+  position: $pos;
+}
+
+@mixin abs-position($top, $right, $bottom, $left) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin transition(
+  $tr-property: all,
+  $tr-duration: 0.3s,
+  $tr-tm-function: ease-in-out
+) {
+  transition-property: $tr-property;
+  transition-duration: $tr-duration;
+  transition-timing-function: $tr-tm-function;
+}
