@@ -14,13 +14,14 @@
 
 :root {
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 //Components
 @import './Components/Hero/foo';
 
 //Objects
-@import './Objects/breakpoints';
+@import './Objects/objects';
 
 //Utilities
 @import './Utilities/god-tier';
