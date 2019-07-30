@@ -1,7 +1,16 @@
-//Fuentes
+/*------------------------------------*\
+    #FUENTES
+\*------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
-$fuente-titulos: 'Raleway', sans-serif;
+/**
+ * Fuentes definidas para:
+    1. navegación
+    2. títulos
+    3. parrafos
+ */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
-$fuente-textos: 'Quicksand', sans-serif;
+//Se definen variables desde Google Fonts.
+
+//1, 2, 3
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap');
+$font: 'Montserrat', sans-serif;

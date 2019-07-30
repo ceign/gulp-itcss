@@ -1,12 +1,22 @@
 .foo-wrapper {
     @include flex-align(column, center, center);
+    padding: 0 2rem;
 
     .foo {
-        font-family: $fuente-titulos;
+        @include transition(.3s all ease-in-out);
+        font-family: $font;
         font-size: 2rem;
 
         &:hover {
-            @include transition();
+            color: red;
         }
+    }
+
+    p {
+        font-family: $font;
+    }
+
+    @include s {
+        background-color: rgb(165, 88, 241);
     }
 }
