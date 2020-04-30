@@ -19,6 +19,6 @@
     "tar": "^5.0.5"
   },
   "devDependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
